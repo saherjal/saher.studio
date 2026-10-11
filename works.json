@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "id": "brand",
+      "ar": "هوية بصرية",
+      "en": "Brand identity"
+    },
+    {
+      "id": "social",
+      "ar": "سوشيال ميديا",
+      "en": "Social media"
+    },
+    {
+      "id": "ui",
+      "ar": "UI / UX",
+      "en": "UI / UX"
+    }
+  ],
+  "projects": [
+    {
+      "id": "zaheb",
+      "cat": "ui",
+      "img": "images/zaheb-thumb.jpg",
+      "tag": "UI / UX DESIGN",
+      "title": "ZAHEB — تطبيق صيانة السيارات",
+      "titleEn": "ZAHEB — Car maintenance app",
+      "alt": "واجهات تطبيق زاهب لصيانة السيارات",
+      "altEn": "ZAHEB car maintenance app screens",
+      "desc": "مشروع سعودي من 40 واجهة، مع تصميم الشعار.",
+      "descEn": "A Saudi project with 40 screens, including the logo design.",
+      "link": "",
+      "home": false
+    },
+    {
+      "id": "shadi",
+      "cat": "social",
+      "img": "images/shadi-cover.jpg",
+      "tag": "SOCIAL MEDIA DESIGN",
+      "title": "شادي أبو حميد — حملة القهوة",
+      "titleEn": "Shadi Abo Hmaid — Coffee campaign",
+      "alt": "شادي أبو حميد: منشور قهوة موكا وحملة قهوتنا قهوة ملوك",
+      "altEn": "Shadi Abo Hmaid: Mocha coffee post and the Coffee of Kings campaign",
+      "desc": "",
+      "descEn": "",
+      "link": "",
+      "home": false
+    },
+    {
+      "id": "durrat",
+      "cat": "social",
+      "img": "images/durrat-al-madina.jpg",
+      "tag": "SOCIAL MEDIA DESIGN",
+      "title": "درة المدينة",
+      "titleEn": "Durrat Al-Madina",
+      "alt": "درة المدينة - تصميم سوشيال ميديا",
+      "altEn": "Durrat Al-Madina — social media design",
+      "desc": "",
+      "descEn": "",
+      "link": "",
+      "home": true
+    },
+    {
+      "id": "ui",
+      "cat": "ui",
+      "img": "images/saherUI.jpeg",
+      "tag": "UI / UX DESIGN",
+      "title": "تجربة رقمية",
+      "titleEn": "Digital experience",
+      "alt": "Saher UI UX",
+      "altEn": "Saher UI UX",
+      "desc": "",
+      "descEn": "",
+      "link": "",
+      "home": true
+    },
+    {
+      "id": "social",
+      "cat": "social",
+      "img": "images/social-media.jpg",
+      "tag": "SOCIAL MEDIA",
+      "title": "تصميم المحتوى",
+      "titleEn": "Content design",
+      "alt": "تصميم سوشيال ميديا",
+      "altEn": "Social media design",
+      "desc": "",
+      "descEn": "",
+      "link": "",
+      "home": true
+    },
+    {
+      "id": "brand",
+      "cat": "brand",
+      "img": "images/brand-identity.jpg",
+      "tag": "BRAND IDENTITY",
+      "title": "هوية بصرية",
+      "titleEn": "Brand identity",
+      "alt": "هوية بصرية",
+      "altEn": "Brand identity",
+      "desc": "",
+      "descEn": "",
+      "link": "",
+      "home": true
+    }
+  ]
+}

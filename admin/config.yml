@@ -1,0 +1,44 @@
+# غيّر repo فقط: اسم_حسابك_على_GitHub/اسم_المستودع
+backend:
+  name: github
+  repo: saherjal/saher.studio
+  branch: main
+
+media_folder: images
+public_folder: images
+
+collections:
+  - name: works
+    label: الأعمال
+    files:
+      - name: works
+        label: أعمال الموقع
+        file: works.json
+        fields:
+          - label: المشاريع
+            name: projects
+            widget: list
+            label_singular: مشروع
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "المعرّف (حروف إنجليزية بدون مسافات)", name: id, widget: string, required: false }
+              - { label: "الفئة", name: cat, widget: select, options: [ { label: "هوية بصرية", value: brand }, { label: "سوشيال ميديا", value: social }, { label: "UI / UX", value: ui } ] }
+              - { label: "الصورة (يفضل نسبة 4:3)", name: img, widget: image }
+              - { label: "التصنيف فوق الصورة (مثل UI / UX DESIGN)", name: tag, widget: string }
+              - { label: "العنوان (عربي)", name: title, widget: string }
+              - { label: "العنوان (إنجليزي)", name: titleEn, widget: string, required: false }
+              - { label: "وصف الصورة (عربي)", name: alt, widget: string, required: false }
+              - { label: "وصف الصورة (إنجليزي)", name: altEn, widget: string, required: false }
+              - { label: "وصف قصير تحت الكرت (اختياري)", name: desc, widget: text, required: false }
+              - { label: "الوصف بالإنجليزي", name: descEn, widget: text, required: false }
+              - { label: "رابط المشروع على Behance", name: link, widget: string, required: false, hint: "إذا تركته فاضي بيروح لرابط بروفايلك العام" }
+              - { label: "يظهر بالصفحة الرئيسية", name: home, widget: boolean, default: false }
+          - label: الفئات
+            name: categories
+            widget: list
+            label_singular: فئة
+            summary: "{{fields.ar}}"
+            fields:
+              - { label: "المعرّف", name: id, widget: string }
+              - { label: "الاسم بالعربي", name: ar, widget: string }
+              - { label: "الاسم بالإنجليزي", name: en, widget: string }
