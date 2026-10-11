@@ -3,6 +3,7 @@ backend:
   name: github
   repo: saherjal/saher.studio
   branch: main
+  base_url: https://sveltia-cms-auth.saherjal17.workers.dev
 
 media_folder: images
 public_folder: images
